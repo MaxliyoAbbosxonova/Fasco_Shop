@@ -1,0 +1,41 @@
+https://www.figma.com/design/QIo4vUncOIn0uzCqYqWGYe/Online-Shopping-Website-Design---eCommerce-Store-Website---UI-Kit--Community-?node-id=0-1&p=f
+
+
+
+docker compose
+Makefile
+github cicd
+isort, flake8
+minio
+redis (redis browser)
+postgres
+
+
+server (nginx, service, logs)
+pytest
+git
+docker
+websocket
+
+
+
+Task
+1. register, login
+- register qilganda (email ga confirmation code yuborilsin)
+/api/v1/auth/register
+- register qilganda database yozilmasin, cache(redis) da 1kun saqlansin
+- /api/v1/auth/confirmation
+email
+code
+
+
+{
+    "botirjon@gmail.com": {
+        "first_name":"Botir",
+        ...
+        "code": 123456
+    }
+}
+
+
+
